@@ -9,15 +9,13 @@ public class Enemy : MonoBehaviour
     [SerializeField] private int _health;
     [SerializeField] private int _reward;
 
-     private Player _target;
-
+    private Player _target;
     public int Reward => _reward;
-
-    public Player Target => _target; // реализация свойства которое идет только на чтение.
-  
+    public Player Target => _target; 
+    
     public event UnityAction<Enemy> Dying;
 
-    public void Init(Player target) // для префаба что бы враг знал о плеере
+    public void Init(Player target) 
     {
         _target = target;
     }
