@@ -69,10 +69,9 @@ public class Spawner : MonoBehaviour
         }
         else
         {
-            Debug.Log("Ошибка!");
+            Debug.Log("ГЋГёГЁГЎГЄГ !");
         }
     }
-
 
     private void OnEnemyDying(Enemy enemy)
     {
