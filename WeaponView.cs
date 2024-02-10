@@ -22,7 +22,6 @@ public class WeaponView : MonoBehaviour
         _label.text = weapon.Label;
         _price.text = weapon.Price.ToString();
         _icon.sprite = weapon.Icon;
-
     }
 
     private void TryLockItem()
